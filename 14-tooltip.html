@@ -1,0 +1,54 @@
+<style>
+    .google-button {
+        position: relative; }
+    
+    .youtube-button {      
+    /*making the button flexbox helps aligning the text and tooltip easily*/
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    align-items: center; }
+
+    .google-button .tooltip,
+    .youtube-button .tooltip {
+        position:absolute;
+        background-color: lightgray;
+        text-wrap: nowrap;
+        top: 25px;
+        padding: 5px;
+        border-radius: 5px;
+        opacity: 0;
+        transition: opacity 0.4s;
+        pointer-events: none; 
+        /*show tooltip is only when
+        pointer is on the button*/ 
+    }
+    /*advanced css selectors*/
+    .google-button:hover .tooltip,
+    .youtube-button:hover .tooltip {  
+        opacity: 1; 
+    }
+</style>
+
+<button style="position: relative;">
+    Hello
+    <div style="position: absolute;
+        background-color: lightgray;
+        text-wrap: nowrap;
+        top: 25px;
+        left: 5px;
+        padding: 5px;
+        border-radius: 5px;"> Nothing here </div>    
+</button>
+
+<br><br><br>
+<button class="google-button">
+    Google
+    <div class="tooltip"> Search with Google </div>
+</button>
+
+<br><br><br>
+<button class="youtube-button">
+    Youtube
+    <div class="tooltip"> Home </div>
+</button>

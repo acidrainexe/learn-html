@@ -1,0 +1,46 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+}
+.video-title {
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.video-stats {
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+    margin-bottom: 20px;
+}
+.video-author {
+    color: rgb(90, 90, 90);
+    margin-bottom: 20px;
+    font-family: Playwrite AT;
+}
+.video-description {
+    font-size: 15px;
+    color: rgb(90, 90, 90);
+    width: 280px;
+    margin-bottom: 20px;
+}
+.premium-ad {
+    background-color: rgb(210, 30, 30);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+.offer-link {
+    cursor: pointer;
+    transition: opacity 0.1s;
+}
+.offer-link:hover {
+    opacity: 0.85;
+    text-decoration: underline;
+    text-underline-offset: 1.5px;
+    text-decoration-thickness: 1.2px;
+}

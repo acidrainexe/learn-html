@@ -1,0 +1,42 @@
+<body style="padding-top: 70px;
+             padding-left: 70px;
+             padding-bottom: 2000px;">
+    <div style="position: fixed;
+            background-color: black;
+            color: white;
+            top: 0; /*Sticking parameters*/
+            left: 0;
+            right: 0;
+            height: 60px;
+            z-index: 1;">Header</div>
+    <div style="position: fixed;
+                background-color: gray;
+                top: 60px;
+                left: 0;
+                bottom: 0;
+                width: 60px;">Sidebar</div>
+
+    <div style="background-color: lightblue; height: 200px; width: 200px;"></div>
+    <div style="background-color: lightpink; height: 200px; width: 200px;position: relative;">
+        <div style="position: absolute;
+                    background-color: black;
+                    color: white;
+                    right: 10px;
+                    bottom: 10px;">5:00
+        </div>
+    </div>
+
+
+    <!--test-->
+    <div style="background-color: lightblue; height: 200px; width: 200px;position: relative;">
+        <div style="position: absolute;
+        background-color: black;
+        color: white;
+        top: 100px;
+        bottom: 100px;">Hello
+        <!--does not show black background bcuz the blue container div height 200px.
+        the inner text div is 100px below from top and 100px above from bottom edge.
+        so the text div height becomes 0. But the text is shown as it can overflow-->
+        </div>
+    </div>
+</body>

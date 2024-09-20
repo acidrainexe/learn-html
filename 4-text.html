@@ -1,0 +1,58 @@
+
+<style>
+    p { /*clean up code and reduce repetitive css*/
+        font-family: Arial;
+        /*removes default margin*/
+        margin-top: 0; 
+    }
+    .video-title {
+        font-weight: bold;
+        font-size: 18px;
+        width: 300px;
+        line-height: 24px;
+        margin-bottom: 8px; 
+    }
+    .video-stats {
+        font-size: 14px;
+        color: rgb(90, 90, 90);
+        margin-bottom: 20px; 
+    }
+    .video-author {
+        color: rgb(90, 90, 90);
+        margin-bottom: 20px; 
+    }
+    .video-description {
+        font-size: 15px;
+        color: rgb(90, 90, 90);
+        width: 280px;
+        margin-bottom: 20px; 
+    }
+    .premium-ad {
+        background-color: rgb(210, 30, 30);
+        color: white;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center; 
+    }
+    .offer-link {
+        cursor: pointer;
+        transition: opacity 0.1s;
+        /*transition property doesn't work on decorations*/ 
+    }
+    .offer-link:hover {
+        opacity: 0.85;
+        text-decoration: underline;
+        text-underline-offset: 1.5px;
+        text-decoration-thickness: 1.2px; 
+    }
+</style>
+
+<p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai</p>
+<p class="video-stats">3.4M views &#183; 6 months ago</p>
+<p class="video-author">Marques Brownlee &#10003;</p>
+<p class="video-description">Amazing interview with Google CEO.<br>Check out latest Gemini Advanced🌿</p>
+<p class="premium-ad">Buy Youtube Premium to Remove Ads. 
+    <span class="offer-link">See Offers</span>
+</p>

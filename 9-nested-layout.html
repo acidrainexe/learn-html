@@ -1,0 +1,86 @@
+<style>
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: Arial, Helvetica, sans-serif; /*backup fonts*/ 
+    }
+    .search-box {
+        font-size: 18px;
+        display: block;
+    }
+    .video-thumbnail {
+        width: 300px;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+    .video-title {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+    .video-author,
+    .video-stats {
+        font-size: 14px;
+        color: rgb(40, 40, 40);
+    }
+    .video-author {
+        margin-bottom: 4px;
+    }
+    .pro-pic {
+        width:80%;
+        border-radius: 50%;
+    }
+    /*divs styles*/
+    .video-preview-div {
+        width: 300px;
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: top;
+    }
+    .channel-pic-div {
+        display: inline-block;
+        width: 50px; /*important to set width*/
+    }
+    .video-info-div{
+        display: inline-block;
+        width: 200px;
+        vertical-align: top;
+    }
+</style>
+
+
+<input class="search-box" type="text" placeholder="Search">
+<div class="video-preview-div">
+    <!--2 vertical layouts-->
+    <div>
+        <img class="video-thumbnail" src="thumbnails/thumb-1.webp">
+    </div>
+    <div>
+        <!--2 horizontal layouts-->
+        <div class="channel-pic-div">
+            <img class="pro-pic" src="images/channel-1.jpg" alt="image"> 
+        </div>
+        <div class="video-info-div">
+            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai</p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p> 
+        </div>
+    </div>
+</div>
+
+<div class="video-preview-div">
+    <div>
+        <img class="video-thumbnail" src="thumbnails/thumb-2.webp">
+    </div>
+    <div>
+        <div class="channel-pic-div">
+            <img class="pro-pic" src="images/channel-2.jpg" alt="image">
+        </div>
+        <div class="video-info-div">
+            <p class="video-title"> All US Military Bases in The World </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+    </div>
+</div>

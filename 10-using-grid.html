@@ -1,0 +1,162 @@
+<style>
+    p {  
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .search-box {
+        font-size: 18px;
+        display: block; 
+    }
+   .video-preview-div {    
+        background-color: rgb(235, 240, 255);
+        padding-bottom: 20px; 
+    }
+    .video-thumbnail {
+        width: 100%; 
+    }
+    .pro-pic {
+        width:80%;
+        border-radius: 50%; 
+    }
+    .video-title {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 12px; 
+    }
+    .video-author,
+    .video-stats {
+        font-size: 14px;
+        color: rgb(40, 40, 40);
+    }
+    .video-author {
+        margin-bottom: 4px;
+    }
+    .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 20px;
+        margin-top: 10px;
+    }
+    .video-pic-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        margin-top: 10px;
+    }
+</style>
+
+<input class="search-box" type="text" placeholder="Search">
+
+<div class="video-grid">
+    <div class="video-preview-div">
+        <!--2 vertical layouts-->
+        <div>
+        <img class="video-thumbnail" src="thumbnails/thumb-1.webp">
+        </div>
+
+        <div class="video-pic-info-grid">
+            <!--2 horizontal layouts-->
+            <div class="channel-pic-div">
+            <img class="pro-pic" src="images/channel-1.jpg" alt="image"> 
+            </div>
+
+            <div class="video-info-div">
+            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai</p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p> 
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview-div">
+        <div>
+        <img class="video-thumbnail" src="thumbnails/thumb-2.webp">
+        </div>
+
+        <div class="video-pic-info-grid">
+            <div class="channel-pic-div">
+            <img class="pro-pic" src="images/channel-2.jpg" alt="image">
+            </div>
+
+            <div class="video-info-div">
+            <p class="video-title"> All US Military Bases in The World </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview-div">
+        <div>
+        <img class="video-thumbnail" src="thumbnails/thumb-3.webp">
+        </div>
+
+        <div class="video-pic-info-grid">
+            <div class="channel-pic-div">
+            <img class="pro-pic" src="images/channel-3.jpg" alt="image"> 
+            </div>
+
+            <div class="video-info-div">
+            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai</p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p> 
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview-div">
+        <div>
+        <img class="video-thumbnail" src="thumbnails/thumb-4.webp">
+        </div>
+
+        <div class="video-pic-info-grid">
+            <div class="channel-pic-div">
+            <img class="pro-pic" src="images/channel-4.jpg" alt="image">
+            </div>
+
+            <div class="video-info-div">
+            <p class="video-title"> All US Military Bases in The World </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview-div">
+        <div>
+        <img class="video-thumbnail" src="thumbnails/thumb-5.webp">
+        </div>
+
+        <div class="video-pic-info-grid">
+            <div class="channel-pic-div">
+            <img class="pro-pic" src="images/channel-5.jpg" alt="image"> 
+            </div>
+
+            <div class="video-info-div">
+            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai</p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p> 
+            </div>
+        </div>
+    </div>
+
+    <!--test:not setting image or div height can cause grid to expand-->
+    <div class="video-preview-div">
+        <div>
+        <img class="video-thumbnail" src="thumbnails/thumb-6.webp">
+        </div>
+
+        <div class="video-pic-info-grid">
+            <div class="channel-pic-div">
+            <img class="pro-pic" src="images/channel-2.jpg" alt="image">
+            </div>
+
+            <div class="video-info-div">
+            <p class="video-title"> All US Military Bases in The World </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+        </div>
+    </div>
+</div>
