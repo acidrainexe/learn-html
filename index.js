@@ -1,5 +1,5 @@
 /* Hide the Home Feed */
-ytd-rich-grid-renderer, ytd-two-column-browse-results-renderer, ytd-rich-item-renderer {
+ytd-rich-grid-renderer-contents, ytd-two-column-browse-results-renderer, ytd-rich-item-renderer {
   display: none !important;
 }
 
@@ -9,6 +9,6 @@ ytd-compact-video-renderer, ytd-promoted-sparkles-text-search-renderer {
 }
 
 /* Hide the sidebar on the left */
-ytd-mini-guide-renderer {
-  display: none !important;
-}
+//ytd-mini-guide-renderer {
+//  display: none !important;
+//}
